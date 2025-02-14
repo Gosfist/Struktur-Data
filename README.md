@@ -5,10 +5,10 @@ baris 4 : berfungsi untuk mengeksekusi program pertama kali
 baris 5 : membuat objek scanner yang bernama input  
 baris 6 : membuat array 1 dimensi dengan tipe data string yang berisi nama nama menu makanan  
 baris 7 : membuat array 1 dimensi dengan tipe data int yang berisi harga menu makanan  
-baris 8 : deklrasi pilihan dengan tipe data int yang nantinya akan digunakan untuk nama variabel pemilihan opsi yang ada  
-baris 9 : deklrasi dan inisialisasi dengan nama variabel index dengan nilai 0, kenepa nilai 0 karena index array dimulai dari 0   
-baris 10 : deklrasi dan inisialisasi dengan nama maxData dengan nilai 100 yang nantinya digunakan untuk maximum total pesanan   
-baris 11 : deklrasi dan inisialisasi dengan nama totalBiaya dengan nilai 0 yang nantinya digunakan untuk total biaya  
+baris 8 : deklrasi variabel dengan tipe data int yang akan digunakan untuk pemilihan opsi yang ada  
+baris 9 : deklrasi dan inisialisasi dgn nama variabel index dgn nilai 0, karena index array dimulai dari 0   
+baris 10 : deklrasi dan inisialisasi dgn nama maxData dgn nilai 100 yang digunakan untuk maximum total pesanan   
+baris 11 : deklrasi dan inisialisasi dgn nama totalBiaya dengan nilai 0 yang nantinya digunakan untuk total biaya  
 baris 12 : membuat array 2 dimensi yang digunakan untuk menyimpan jumlah pesanan dan total harga per menu  
 baris 13 : membuat array 1 dimensi yang digunakan untuk menyimpan nama nama pesanan yang dipesan nantinya  
 baris 14 : berfungsi untuk memberikan jarak antara baris 1 dan 2 agar rapih  
