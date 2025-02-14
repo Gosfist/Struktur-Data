@@ -1,7 +1,7 @@
-baris 1 : berfungsi untuk menimport library scanner yang ada pada java
-baris 2 : berfungsi untuk memberikan jarak antara baris 1 dan 2 agar rapih 
-baris 3 : berfungsi untuk pemberian nama pada class publik yaitu uas2
-baris 4 : berfungsi untuk mengeksekusi program pertama kali
+baris 1 : berfungsi untuk menimport library scanner yang ada pada java  
+baris 2 : berfungsi untuk memberikan jarak antara baris 1 dan 2 agar rapih    
+baris 3 : berfungsi untuk pemberian nama pada class publik yaitu uas2   
+baris 4 : berfungsi untuk mengeksekusi program pertama kali   
 baris 5 : membuat objek scanner yang bernama input
 baris 6 : membuat array 1 dimensi dengan tipe data string yang berisi nama nama menu makanan
 baris 7 : membuat array 1 dimensi dengan tipe data int yang berisi harga menu makanan
