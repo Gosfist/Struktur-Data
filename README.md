@@ -35,6 +35,6 @@ baris 34 : untuk membaca input user dan di simpan di variabel pilihan
 baris 35 : memeriksa apakah pilihan valid yaitu 1-7   
 baris 36 : untuk mencetak / menampilkan output Masukan jumlah pesanan   
 baris 37 : untuk membaca input user dan di simpan di variabel jumlahPesanan dengan tipe data int  
-baris 38 : untuk mengahapus buffer setelah inputan int
-baris 39 : deklarasi boolean dengan nama variabel cek dan bernilai true untuk mengecek apakah sudah ada pesanan atau belum
-baris 40 : untuk mencetak baris kosong agar terlihat rapih
+baris 38 : untuk mengahapus buffer setelah inputan int  
+baris 39 : deklarasi boolean dengan nama variabel cek dan bernilai true untuk mengecek apakah sudah ada pesanan atau belum  
+baris 40 : untuk mencetak baris kosong agar terlihat rapih  
