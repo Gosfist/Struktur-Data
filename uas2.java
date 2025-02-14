@@ -49,6 +49,7 @@ public class uas2 {
                                 break;
                             }
                         }
+                        
                         if (cek) {
                             daftarPesanan[index][0] += jumlahPesanan;
                             daftarPesanan[index][1] = jumlahPesanan*hargaMenu[pilihan-1];
@@ -64,30 +65,34 @@ public class uas2 {
                         System.out.println("menu tidak valid. Coba lagi");
                         continue;
                     }
-                   
                     break;
                 } while (true);
                 
             } else if (pilihan==2) {
+                if (index==0) {
+                    System.out.println("Belum ada pesanan");
+                    System.out.println();
+                    continue;
+                }
                 System.out.println();
                 System.out.println("=== Daftar pesanan ===");
                 for (int i = 0; i < index; i++) {
                     System.out.println((i+1)+" "+menuDipesan[i]+" x"+daftarPesanan[i][0]+" - Rp."+daftarPesanan[i][1]);
                 }
-                System.out.println("Total biaya sementara: "+totalBiaya);
                 System.out.println();
             } else if (pilihan==3) {
                 System.out.println("Total biaya seluruh pesanan: "+totalBiaya);
                 System.out.println();
             } else if (pilihan==4) {
+                System.out.println("By Wisnu Suro Pamungkas");
+                System.out.println();
                 break;
             } else {
                 System.out.println("Menu tidak valid. Coba lagi");
                 System.out.println();
-            } 
-                
+            }     
            
         } while (true);
-        
+
     }
 }
