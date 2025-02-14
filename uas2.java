@@ -15,7 +15,7 @@ public class uas2 {
         System.out.println("=== Selamat Datang Di Kafe ===");
         System.out.println();
         System.out.println("=== Menu ===");
-        for (int i = 0; i < hargaMenu.length; i++) {
+        for (int i = 0; i < daftarMenu.length; i++) {
             System.out.println((i+1)+". "+daftarMenu[i]+" - Rp"+hargaMenu[i]);
         }
         System.out.println();
