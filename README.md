@@ -99,4 +99,3 @@ baris 95 : membuat kondisi perulangan menjadi infinite loop dengan cara kondisi 
 baris 96 : membuat line kosong kosong sebagai jarak agar codingan rapih      
 baris 97 : untuk menutup kode yang telah di buka    
 baris 98 : untuk menutup kode yang telah di buka    
-baris 99 :  membuat line kosong kosong sebagai jarak agar codingan rapih  
