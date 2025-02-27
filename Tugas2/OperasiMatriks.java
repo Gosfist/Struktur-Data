@@ -10,7 +10,7 @@ public class OperasiMatriks { //deklrasi
             {7, 8, 9},
             {10, 11, 12}
         };
-
+        
         // Penjumlahan matriks
         int[][] hasil = new int[2][3]; // deklrasi dan inisialisasi
 
