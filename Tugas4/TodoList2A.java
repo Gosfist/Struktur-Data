@@ -63,18 +63,13 @@ public class TodoList2A {
         } 
     }
 
-    // mencari task berdasarkan index
-    public void searchTaskByIndex(int index) {
-        boolean cek = false; //  deklarasi dan inisialisasi, apakah index ditemukan
+    // mencari task berdasarkan task name
+    public void searchTaskByTaskName(String task) {
         System.out.print("Hasil search: "); // mencetak tulisan hasil search
-        for (int i = 0; i < todoList.size(); i++) { // Iterasi untuk mencari index
-            if (index==i) { // menngecek apakah index cocok
-                System.out.println(todoList.get(i)); // Menampilkan task pada index tersebut
-                cek = true; // mengubah nilai cek menjadi true, berarti index ditemukan
-            }
-        } 
-        if (!cek) { // Jika index tidak ditemukan
-            System.out.println("Tidak ditemukan"); // mencetak Pesan kesalahan
+        if (todoList.contains(task)) { //mengecek apakah nama yang dicari berada di array atau tidak
+            System.out.println(task+"\nTask ditemukan"); //konfirmasi bahwa task di temukan
+        } else {
+            System.out.println("- \nTask tidak ditemukan"); // mencetak Pesan kesalahan
         }
     }
 
@@ -88,7 +83,7 @@ public class TodoList2A {
             System.out.println("1. Add Task"); // Opsi menu
             System.out.println("2. Remove Task By Task Name"); // Opsi menu
             System.out.println("3. Remove Task By Index"); // Opsi menu
-            System.out.println("4. Search Task By Index"); // Opsi menu
+            System.out.println("4. Search Task By Task Name"); // Opsi menu
             System.out.println("5. Display Tasks"); // Opsi menu
             System.out.println("6. Exit"); // Opsi menu
             System.out.print("Enter your choice: "); // Prompt untuk input pengguna
@@ -127,9 +122,9 @@ public class TodoList2A {
                         System.out.println("Tidak ada task"); // Pesan kesalahan
                         break; // keluar dari case
                     }
-                    System.out.print("Enter index to search task: "); // Prompt untuk mencari task
-                    int indexToSearch = scanner.nextInt(); // Membaca input index
-                    app.searchTaskByIndex(indexToSearch-1); // Memanggil metode pencarian dengan index 
+                    System.out.print("Enter Task name to search task: "); // Prompt untuk mencari task
+                    String taskToSearch = scanner.nextLine(); // Membaca input index
+                    app.searchTaskByTaskName(taskToSearch); // Memanggil metode pencarian dengan index 
                     break; // keluar dari case
 
                 case 5:
